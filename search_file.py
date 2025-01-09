@@ -18,12 +18,11 @@ def search_file(input_filename, search_keyword):
             output_lines.append(line)
 
     if not args.output_file:
-        output_filename = 'search_text.txt'
+        output_filename = 'search_' + search_keyword.replace(' ', '_') + '.txt'
     else:
         output_filename = args.output_file
 
     # Check if the file already exists
-    output_filename = args.output_file if args.output_file else 'search_text.txt'
     if os.path.exists(output_filename):
         while True:
             response = input(f'File {output_filename} already exists. Overwrite? Y/N: ')
@@ -40,15 +39,13 @@ def search_file(input_filename, search_keyword):
             output_file.write('\n'.join(map(str, output_lines)))
         print(f'File {output_filename} written.')
     
+    print(f'Output file: {output_filename}')
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Search file and store lines containing the keyword')
     parser.add_argument('input_filename', help='Input filename to search')
     parser.add_argument('search_keyword', help='Keyword to search for')
-    # parser.add_argument('-o', '--output-file', default=None, help='Output filename (default: search_text.txt)')
-    parser.add_argument('-o', '--output-file', default=None, help='Output filename (default: search_'search_keyword'.txt)')
-
+    parser.add_argument('-o', '--output-file', default=None, help='Output filename (default: search_text.txt)')
     args = parser.parse_args()
     search_file(args.input_filename, args.search_keyword)
-    
-    
