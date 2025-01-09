@@ -1,0 +1,1017 @@
+01-01 08:00:01.234     1     1 W virtio-mmio: probe of 1ca00000.virtio_npu failed with error -16
+
+01-01 08:00:01.900     1     1 I init    : Error: Apex SEPolicy failed signature check
+
+01-01 08:00:04.616   190   190 E cutils-trace: Error opening trace file: No such file or directory (2)
+
+01-01 08:00:07.923   387   387 E cutils-trace: Error opening trace file: Permission denied (13)
+
+01-01 08:00:07.972   360   360 E cutils-trace: Error opening trace file: Permission denied (13)
+
+01-01 08:00:08.383   424   424 W msm_mem_dump: probe of soc:mem_dump failed with error -12
+
+01-01 08:00:09.305    10    10 E sdhci_msm 8804000.sdhci: error -EOPNOTSUPP: unable to acquire core_reset
+
+01-01 08:13:57.783   360   500 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.frameworks.automotive.display.ICarDisplayProxy/default": error code: 0x20
+
+01-01 08:00:09.365   455   455 E msm-dwc3 a800000.ssusb: error -ENXIO: IRQ hs_phy_irq not found
+
+01-01 08:00:09.758    86    86 W gpiod_set_value: invalid GPIO (errorpointer)
+
+01-01 08:00:09.779   532   532 W qseecom : probe of 87900000.qseecom failed with error -22
+
+01-01 08:00:09.825     8     8 I siw_touch 0-0028: ic error    : 0000000Ah
+
+01-01 08:00:09.972   541   541 W adsp-notify: probe of soc:qcom,msm-adsp-notify failed with error -22
+
+01-01 08:13:58.780   462   462 E EvsHal  : Failed to load and/or parse a configuration file, Error=XML_ERROR_FILE_NOT_FOUND ErrorID=3 (0x3) Line number=0: filename=/vendor/etc/automotive/evs/evs_sample_configuration_ais.xml
+
+01-01 08:13:58.800   462   569 E evs_hal_client: R0x4080000|33533759 ais_client_event_recv_thread:473 ERR aborting event thread due to error -4
+
+01-01 08:00:10.415   549   549 W msm-dai-tdm: probe of soc:qcom,msm-dai-tdm-hsif0-tx failed with error -22
+
+01-01 08:00:10.434   515   515 E         : [HXTP][ERROR] TP Info from IC is wrong, err_cnt = 0x1
+
+01-01 08:13:59.003   360   577 W libc    : Unable to set property "ctl.interface_start" to "aidl/SurfaceFlingerAIDL": error code: 0x20
+
+01-01 08:13:59.756   584   596 E TOGG_VHAL: DdsSubscriber:: dds_create_participant failed: Error
+
+01-01 08:13:59.865   580   606 E ais_v4l2_proxy: R0x4080000|33533759 ais_client_event_recv_thread:473 ERR aborting event thread due to error -4
+
+01-01 08:14:00.348   583   583 E keystore2: system/security/keystore2/src/error.rs:180 - system/security/keystore2/src/security_level.rs:622
+
+01-01 08:14:00.348   583   583 E keystore2:     1: Error::Km(r#ROLLBACK_RESISTANCE_UNAVAILABLE)
+
+01-01 08:14:00.348   466   466 E vold    : keystore2 Keystore generateKey returned service specific error: -67
+
+01-01 08:00:11.884   466   466 E vold    : keystore2 Keystore generateKey returned service specific error: -67
+
+01-01 08:14:00.764   584   596 E TOGG_VHAL: DdsSubscriber:: dds_create_participant failed: Error
+
+01-01 08:14:01.772   584   596 E TOGG_VHAL: DdsSubscriber:: dds_create_participant failed: Error
+
+01-01 08:14:02.631   466   466 W libc    : Unable to set property "ro.boottime.init.fsck.data" to "68": error code: 0xb
+
+01-01 08:14:02.780   584   596 E TOGG_VHAL: DdsSubscriber:: dds_create_participant failed: Error
+
+01-01 08:00:14.484   466   466 E F2FS-fs (dm-46): Cannot turn on quotas: error -117
+
+01-01 08:14:02.953   466   466 W libc    : Unable to set property "ro.boottime.init.mount.data" to "319": error code: 0xb
+
+01-01 08:14:02.984   360   612 W libc    : Unable to set property "ctl.interface_start" to "aidl/SurfaceFlingerAIDL": error code: 0x20
+
+01-01 08:14:02.984   360   615 W libc    : Unable to set property "ctl.interface_start" to "aidl/SurfaceFlingerAIDL": error code: 0x20
+
+01-01 08:14:02.995   360   620 W libc    : Unable to set property "ctl.interface_start" to "aidl/SurfaceFlingerAIDL": error code: 0x20
+
+01-01 08:14:03.014   360   627 W libc    : Unable to set property "ctl.interface_start" to "aidl/SurfaceFlingerAIDL": error code: 0x20
+
+01-01 08:14:03.140   583   583 E keystore2: system/security/keystore2/src/error.rs:180 - system/security/keystore2/src/security_level.rs:622
+
+01-01 08:14:03.140   583   583 E keystore2:     1: Error::Km(r#ROLLBACK_RESISTANCE_UNAVAILABLE)
+
+01-01 08:14:03.141   466   466 E vold    : keystore2 Keystore generateKey returned service specific error: -67
+
+01-01 08:00:14.676   466   466 E vold    : keystore2 Keystore generateKey returned service specific error: -67
+
+01-01 08:14:03.418   583   603 E keystore2: system/security/keystore2/src/error.rs:180 - system/security/keystore2/src/maintenance.rs:167: getting keymint device
+
+01-01 08:14:03.418   583   603 E keystore2:     2: Error::Km(r#HARDWARE_TYPE_UNAVAILABLE)
+
+01-01 08:14:03.418   466   466 E vold    : keystore2 Keystore earlyBootEnded returned service specific error: -68
+
+01-01 08:00:14.953   466   466 E vold    : keystore2 Keystore earlyBootEnded returned service specific error: -68
+
+01-01 08:14:03.787   584   596 E TOGG_VHAL: DdsSubscriber:: dds_create_participant failed: Error
+
+01-01 08:14:04.016   360   643 W libc    : Unable to set property "ctl.interface_start" to "aidl/SurfaceFlingerAIDL": error code: 0x20
+
+01-01 08:14:04.794   584   596 E TOGG_VHAL: DdsSubscriber:: dds_create_participant failed: Error
+
+01-01 08:14:05.019   360   645 W libc    : Unable to set property "ctl.interface_start" to "aidl/SurfaceFlingerAIDL": error code: 0x20
+
+01-01 08:14:05.801   584   596 E TOGG_VHAL: DdsSubscriber:: dds_create_participant failed: Error
+
+01-01 08:14:06.022   360   698 W libc    : Unable to set property "ctl.interface_start" to "aidl/SurfaceFlingerAIDL": error code: 0x20
+
+01-01 08:14:06.816   584   596 E TOGG_VHAL: DdsSubscriber:: dds_create_participant failed: Error
+
+01-01 08:14:07.023   360   722 W libc    : Unable to set property "ctl.interface_start" to "aidl/SurfaceFlingerAIDL": error code: 0x20
+
+01-01 08:14:07.824   584   596 E TOGG_VHAL: DdsSubscriber:: dds_create_participant failed: Error
+
+01-01 08:14:08.040   360   739 W libc    : Unable to set property "ctl.interface_start" to "aidl/SurfaceFlingerAIDL": error code: 0x20
+
+01-01 08:14:08.130   583   603 E keystore2: system/security/keystore2/src/error.rs:180 - system/security/keystore2/src/security_level.rs:622
+
+01-01 08:14:08.130   583   603 E keystore2:     1: Error::Km(r#ROLLBACK_RESISTANCE_UNAVAILABLE)
+
+01-01 08:14:08.130   466   466 E vold    : keystore2 Keystore generateKey returned service specific error: -67
+
+01-01 08:00:19.666   466   466 E vold    : keystore2 Keystore generateKey returned service specific error: -67
+
+01-01 08:14:08.832   584   596 E TOGG_VHAL: DdsSubscriber:: dds_create_participant failed: Error
+
+01-01 08:14:09.029   360   749 W libc    : Unable to set property "ctl.interface_start" to "aidl/SurfaceFlingerAIDL": error code: 0x20
+
+01-01 08:14:09.839   584   596 E TOGG_VHAL: DdsSubscriber:: dds_create_participant failed: Error
+
+01-01 08:14:10.031   360   750 W libc    : Unable to set property "ctl.interface_start" to "aidl/SurfaceFlingerAIDL": error code: 0x20
+
+01-01 08:14:10.856   584   596 E TOGG_VHAL: DdsSubscriber:: dds_create_participant failed: Error
+
+01-01 08:14:11.034   360   753 W libc    : Unable to set property "ctl.interface_start" to "aidl/SurfaceFlingerAIDL": error code: 0x20
+
+01-01 08:14:11.875   584   596 E TOGG_VHAL: DdsSubscriber:: dds_create_participant failed: Error
+
+01-01 08:14:12.038   360   761 W libc    : Unable to set property "ctl.interface_start" to "aidl/SurfaceFlingerAIDL": error code: 0x20
+
+01-01 08:14:12.883   584   596 E TOGG_VHAL: DdsSubscriber:: dds_create_participant failed: Error
+
+01-01 08:14:13.041   360   776 W libc    : Unable to set property "ctl.interface_start" to "aidl/SurfaceFlingerAIDL": error code: 0x20
+
+01-01 08:14:13.743   783   783 E TcUtils : NLMSG_ERROR message return error: -2
+
+01-01 08:14:13.743   783   783 E TcUtils : NLMSG_ERROR message return error: -2
+
+01-01 08:14:13.743   783   783 E TcUtils : NLMSG_ERROR message return error: -2
+
+01-01 08:14:13.743   783   783 E TcUtils : NLMSG_ERROR message return error: -2
+
+01-01 08:14:13.744   783   783 E TcUtils : NLMSG_ERROR message return error: -2
+
+01-01 08:14:13.744   783   783 E TcUtils : NLMSG_ERROR message return error: -2
+
+01-01 08:14:13.744   783   783 E TcUtils : NLMSG_ERROR message return error: -2
+
+01-01 08:14:13.744   783   783 E TcUtils : NLMSG_ERROR message return error: -2
+
+01-01 08:14:13.744   783   783 E TcUtils : NLMSG_ERROR message return error: -2
+
+01-01 08:14:13.745   783   783 E TcUtils : NLMSG_ERROR message return error: -2
+
+01-01 08:14:13.745   783   783 E TcUtils : NLMSG_ERROR message return error: -2
+
+01-01 08:14:13.745   783   783 E TcUtils : NLMSG_ERROR message return error: -2
+
+01-01 08:14:13.745   783   783 E TcUtils : NLMSG_ERROR message return error: -2
+
+01-01 08:14:13.746   783   783 E TcUtils : NLMSG_ERROR message return error: -2
+
+01-01 08:14:13.746   783   783 E TcUtils : NLMSG_ERROR message return error: -2
+
+01-01 08:14:13.746   783   783 E TcUtils : NLMSG_ERROR message return error: -2
+
+01-01 08:14:13.746   783   783 E TcUtils : NLMSG_ERROR message return error: -2
+
+01-01 08:14:13.891   584   596 E TOGG_VHAL: DdsSubscriber:: dds_create_participant failed: Error
+
+01-01 08:14:14.042   360   821 W libc    : Unable to set property "ctl.interface_start" to "aidl/SurfaceFlingerAIDL": error code: 0x20
+
+01-01 08:14:14.906   584   596 E TOGG_VHAL: DdsSubscriber:: dds_create_participant failed: Error
+
+01-01 08:14:15.047   360   839 W libc    : Unable to set property "ctl.interface_start" to "aidl/SurfaceFlingerAIDL": error code: 0x20
+
+01-01 08:00:27.240    10    10 W gpiod_set_value: invalid GPIO (errorpointer)
+
+01-01 08:14:15.914   584   596 E TOGG_VHAL: DdsSubscriber:: dds_create_participant failed: Error
+
+01-01 08:14:16.050   360   860 W libc    : Unable to set property "ctl.interface_start" to "aidl/SurfaceFlingerAIDL": error code: 0x20
+
+01-01 08:14:16.931   584   596 E TOGG_VHAL: DdsSubscriber:: dds_create_participant failed: Error
+
+01-01 08:14:17.069   881   881 W LocSvc_misc_utils: logDlError:167] dlopen error: dlopen failed: library "libizatprovider.so" not found
+
+01-01 08:14:17.092   881   881 E SynergyLoc_Api: SynergyLocApi:1310] dlopen for libloc_sll_impl.so failed, handle 0x0 error: dlopen failed: library "libloc_sll_impl.so" not found
+
+01-01 08:14:17.184   881   906 W LocSvc_misc_utils: logDlError:167] dlopen error: dlopen failed: library "libloc_net_iface.so" not found
+
+01-01 08:14:17.217   881   881 W LocSvc_misc_utils: logDlError:167] dlopen error: dlopen failed: library "liblocation_qesdk.so" not found
+
+01-01 08:14:17.289   360   920 W libc    : Unable to set property "ctl.interface_start" to "aidl/SurfaceFlingerAIDL": error code: 0x20
+
+01-01 08:14:17.399   934   934 E vendor.qti.hardware.limits@1.2-service: Thermal HAL service get error
+
+01-01 08:14:17.623   881   906 E LocSvc_IzatApiSynergy: loadSllIzatApi:1292] dlopen for libsll_izat_if.so failed, handle 0x0 error: dlopen failed: library "libsll_izat_if.so" not found
+
+01-01 08:14:17.634   881   972 E IzatSvc_IzatManager: Exiting with error handleMsg line 700 "3"
+
+01-01 08:14:17.634   881   972 E IzatSvc_IzatManager: Exiting with error handleMsg line 700 "3"
+
+01-01 08:14:17.636   881   972 E IzatSvc_IzatManager: Exiting with error handleMsg line 700 "3"
+
+01-01 08:14:17.640   881   906 E IzatSvc_QNP: Exiting with error getInstance line 291 2
+
+01-01 08:14:17.641   881   906 W LocSvc_misc_utils: logDlError:167] dlopen error: dlopen failed: library "libizatprovider.so" not found
+
+01-01 08:14:17.652   881   906 W LocSvc_misc_utils: logDlError:167] dlopen error: dlopen failed: library "liblocation_qesdk.so" not found
+
+01-01 08:14:17.659   881   972 E IzatSvc_IzatManager: Exiting with error handleMsg line 700 "3"
+
+01-01 08:14:17.660   881   972 E IzatSvc_IzatManager: Exiting with error handleMsg line 700 "3"
+
+01-01 08:14:17.660   881   972 E IzatSvc_IzatManager: Exiting with error handleMsg line 700 "3"
+
+01-01 08:14:17.661   881   972 E IzatSvc_IzatManager: Exiting with error handleMsg line 700 "3"
+
+01-01 08:14:17.902   973   973 E tftp_server: pid=973 tid=973 tftp-server : ERR :[tftp_os_la.c, 260] lchown fail for path /mnt/vendor/persist/rfs with error -2 
+
+01-01 08:14:17.902   973   973 E tftp_server: pid=973 tid=973 tftp-server : ERR :[tftp_os_la.c, 260] lchown fail for path /mnt/vendor/persist/hlos_rfs with error -2 
+
+01-01 08:14:17.943   584   596 E TOGG_VHAL: DdsSubscriber:: dds_create_participant failed: Error
+
+01-01 08:14:18.056   360   987 W libc    : Unable to set property "ctl.interface_start" to "aidl/SurfaceFlingerAIDL": error code: 0x20
+
+01-01 08:14:18.438   912   912 E V4L2CameraHAL:   Syntax error: value, object or array expected.
+
+01-01 08:14:18.647   879   879 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+01-01 08:14:18.647   879   879 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+01-01 08:14:18.730   188   188 W libc    : Unable to set property "ro.media.xml_variant.codecs" to "_msmnile": error code: 0xb
+
+01-01 08:14:18.733   188   188 W libc    : Unable to set property "ro.media.xml_variant.codecs_performance" to "_msmnile": error code: 0xb
+
+01-01 08:14:18.860   929   929 E SDM     : DRMMaster::Init: drmOpen failed with error -1
+
+01-01 08:14:18.861   929   929 E SDM     : DRMManager::RegisterDisplay: Error reserving connector for display type 2. Error = -19 (No such device)
+
+01-01 08:14:18.861   929   929 E SDM     : HWInfoDRM::GetWBInfo: Failed registering display 2. Error: -19.
+
+01-01 08:14:18.953   584   596 E TOGG_VHAL: DdsSubscriber:: dds_create_participant failed: Error
+
+01-01 08:14:19.059   360  1068 W libc    : Unable to set property "ctl.interface_start" to "aidl/SurfaceFlingerAIDL": error code: 0x20
+
+01-01 08:00:30.653  1031  1031 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [surfaceflinger:964:1031]@16: argument type or size mismatch: call id 21
+
+01-01 08:00:30.654  1031  1031 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [surfaceflinger:964:1031]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:00:30.655  1031  1031 E         : HGSL [ERROR] [hgsl_hyp_ctxt_create_v1:2667] [surfaceflinger:964:1031]gsl_rpc_read_uint32_l failed, -22
+
+01-01 08:00:30.659  1031  1031 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [surfaceflinger:964:1031]@16: argument type or size mismatch: call id 79
+
+01-01 08:00:30.659  1031  1031 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [surfaceflinger:964:1031]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:00:30.660  1031  1031 E         : HGSL [ERROR] [hgsl_hyp_query_dbcq:2333] [surfaceflinger:964:1031]gsl_rpc_read_int32_l failed, -22
+
+01-01 08:14:19.132   912   995 E ais_v4l2_hal_client: R0x4080000|33533759 ais_client_event_recv_thread:473 ERR aborting event thread due to error -4
+
+01-01 08:00:30.729  1031  1031 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [surfaceflinger:964:1031]@16: argument type or size mismatch: call id 21
+
+01-01 08:00:30.730  1031  1031 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [surfaceflinger:964:1031]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:00:30.731  1031  1031 E         : HGSL [ERROR] [hgsl_hyp_ctxt_create_v1:2667] [surfaceflinger:964:1031]gsl_rpc_read_uint32_l failed, -22
+
+01-01 08:00:30.746  1031  1031 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [surfaceflinger:964:1031]@16: argument type or size mismatch: call id 79
+
+01-01 08:00:30.747  1031  1031 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [surfaceflinger:964:1031]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:00:30.750  1031  1031 E         : HGSL [ERROR] [hgsl_hyp_query_dbcq:2333] [surfaceflinger:964:1031]gsl_rpc_read_int32_l failed, -22
+
+01-01 08:00:30.774  1031  1031 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [surfaceflinger:964:1031]@16: argument type or size mismatch: call id 21
+
+01-01 08:00:30.775  1031  1031 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [surfaceflinger:964:1031]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:00:30.776  1031  1031 E         : HGSL [ERROR] [hgsl_hyp_ctxt_create_v1:2667] [surfaceflinger:964:1031]gsl_rpc_read_uint32_l failed, -22
+
+01-01 08:00:30.784  1031  1031 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [surfaceflinger:964:1031]@16: argument type or size mismatch: call id 79
+
+01-01 08:00:30.787  1031  1031 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [surfaceflinger:964:1031]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:00:30.789  1031  1031 E         : HGSL [ERROR] [hgsl_hyp_query_dbcq:2333] [surfaceflinger:964:1031]gsl_rpc_read_int32_l failed, -22
+
+01-01 08:00:30.859  1082  1082 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [binder:912_2:912:1082]@16: argument type or size mismatch: call id 21
+
+01-01 08:00:30.859  1082  1082 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [binder:912_2:912:1082]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:00:30.860  1082  1082 E         : HGSL [ERROR] [hgsl_hyp_ctxt_create_v1:2667] [binder:912_2:912:1082]gsl_rpc_read_uint32_l failed, -22
+
+01-01 08:14:19.328   964   964 E HWComposer: Error in fetching HDR conversion capabilities Unsupported
+
+01-01 08:00:30.883  1082  1082 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [binder:912_2:912:1082]@16: argument type or size mismatch: call id 79
+
+01-01 08:00:30.885  1082  1082 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [binder:912_2:912:1082]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:00:30.887  1082  1082 E         : HGSL [ERROR] [hgsl_hyp_query_dbcq:2333] [binder:912_2:912:1082]gsl_rpc_read_int32_l failed, -22
+
+01-01 08:00:31.076  1148  1148 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [binder:462_2:462:1148]@16: argument type or size mismatch: call id 21
+
+01-01 08:00:31.077  1148  1148 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [binder:462_2:462:1148]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:00:31.078  1148  1148 E         : HGSL [ERROR] [hgsl_hyp_ctxt_create_v1:2667] [binder:462_2:462:1148]gsl_rpc_read_uint32_l failed, -22
+
+01-01 08:00:31.094  1148  1148 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [binder:462_2:462:1148]@16: argument type or size mismatch: call id 79
+
+01-01 08:00:31.096  1148  1148 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [binder:462_2:462:1148]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:00:31.096  1148  1148 E         : HGSL [ERROR] [hgsl_hyp_query_dbcq:2333] [binder:462_2:462:1148]gsl_rpc_read_int32_l failed, -22
+
+01-01 08:14:19.629  1124  1124 D AMFS    : ADSP_AVS_CFG_PATH not found, reason: Unknown error -1
+
+01-01 08:14:19.651  1124  1124 D AMFS    : ADSP_LIBRARY_PATH not found, reason: Unknown error -1
+
+01-01 08:14:19.926  1124  1124 D AMFS    : ADSP_LIBRARY_PATH not found, reason: Unknown error -1
+
+01-01 08:14:20.195  1124  1124 D AMFS    : MDSP_AVS_CFG_PATH not found, reason: Unknown error -1
+
+01-01 08:14:20.699  1217  1217 E ThermalEngine: read_int_list_from_file: Read error -2.
+
+01-01 08:14:20.702  1217  1217 E ThermalEngine: read_int_list_from_file: Read error -2.
+
+01-01 08:14:20.707  1217  1217 E ThermalEngine: read_int_list_from_file: Read error -2.
+
+01-01 08:14:20.807  1217  1217 E ThermalEngine: thermal_monitor_init_data: ERROR Unknown device ID 0
+
+01-01 08:14:20.807  1217  1217 E ThermalEngine: ss_init_data: ERROR Unknown device ID 0
+
+01-01 08:14:20.815  1217  1217 E ThermalEngine: virtual_sensors_init: Error getting virtual sensors set
+
+01-01 08:14:20.819  1217  1290 E ThermalEngine: limits_write_data_to_partition: Error opening lmh_cdsp sysfs
+
+01-01 08:14:20.942  1233  1233 W libc    : Unable to set property "ctl.stop" to "vendor.ril-daemon": error code: 0x20
+
+01-01 08:14:21.026  1254  1254 E cnss-daemon: interop issues ap: read_iot_ap_ps_from_file, read file error
+
+01-01 08:14:21.098  1299  1299 W libc    : Unable to set property "ctl.start" to "vendor.qcrild": error code: 0x20
+
+01-01 08:00:32.561  1254  1254 I cnss-daemon: interop issues ap: read_iot_ap_ps_from_file, read file error
+
+01-01 08:14:21.216   881   972 E IzatSvc_IzatManager: Exiting with error handleMsg line 700 "3"
+
+01-01 08:14:21.216   881   972 E IzatSvc_IzatManager: Exiting with error handleMsg line 700 "3"
+
+01-01 08:14:21.499  1322  1322 W libc    : Unable to set property "ctl.start" to "vendor.dataadpl": error code: 0x20
+
+01-01 08:14:21.524   881   972 E IzatSvc_IzatManager: Exiting with error handleMsg line 700 "3"
+
+01-01 08:14:21.524   881   972 E IzatSvc_IzatManager: Exiting with error handleMsg line 700 "3"
+
+01-01 08:14:21.586  1316  1316 W LocSvc_misc_utils: logDlError:167] dlopen error: dlopen failed: library "libizatprovider.so" not found
+
+01-01 08:14:21.591  1316  1316 E SynergyLoc_Api: SynergyLocApi:1310] dlopen for libloc_sll_impl.so failed, handle 0x0 error: dlopen failed: library "libloc_sll_impl.so" not found
+
+01-01 08:14:21.592  1316  1316 E LocSvc_IzatApiSynergy: loadSllIzatApi:1292] dlopen for libsll_izat_if.so failed, handle 0x0 error: dlopen failed: library "libsll_izat_if.so" not found
+
+01-01 08:14:21.739  1297  1297 E update_engine: [ERROR:update_attempter_android.cc(944)] prefs_->GetInt64(kPrefsPreviousSlot, &previous_slot) failed.
+
+01-01 08:14:21.759  1316  1316 E LocSvc_IzatApiSynergy: loadSllIzatApi:1292] dlopen for libsll_izat_if.so failed, handle 0x0 error: dlopen failed: library "libsll_izat_if.so" not found
+
+01-01 08:14:21.995   876   876 E audio_hw_extn: audio_extn_perf_lock_release: Perf lock release error 
+
+01-01 08:14:22.062  1346  1346 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+01-01 08:14:22.062  1346  1346 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+01-01 08:14:22.230   876   876 E msm8974_platform: audio_hwdep_send_cal error open
+
+01-01 08:14:22.236   876   876 E a2dp_offload:  ERROR  a2dp encoder format mixer control not identified
+
+01-01 08:14:22.236   876   876 E a2dp_offload: a2dp_set_bit_format: ERROR AFE input bit format mixer control not identifed
+
+01-01 08:14:22.236   876   876 E a2dp_offload: reset_a2dp_source_dec_config_params: ERROR A2DP decoder config mixer control not identifed
+
+01-01 08:14:22.236   876   876 E a2dp_offload:  ERROR  a2dp decoder format mixer control not identified
+
+01-01 08:14:22.236   876   876 E a2dp_offload:  ERROR  bit format CONFIG data mixer control not identified
+
+01-01 08:14:22.243   876   876 E audio_hw_utils: audio_extn_utils_get_codec_variant: ERROR. cannot open /proc/asound/card0/codecs/wcd937x/variant
+
+01-01 08:14:23.390   888   888 E QTI PowerHAL: Error opening /sys/kernel/hbtp/display_pwr: No such file or directory
+
+01-01 08:14:24.774   876   876 E audio_hw_primary: adev_open: ERROR. Could not get ctl for mixer cmd - AudStr 0 ChMixer Weight Ch 1
+
+01-01 08:14:25.061   876   876 E EffectsFactoryConfigLoader: Error querying effect a31574a6-a5e7-11e8-98d0-529269fb1459 on lib audio_delay
+
+01-01 08:14:25.061   876   876 E EffectsFactoryConfigLoader: Error querying effect 3d844dd4-a367-11e8-9eb6-529269fb1459 on lib audio_volume
+
+01-01 08:14:25.061   876   876 E EffectsFactoryConfigLoader: Error querying effect a124b54f-4026-4ed2-9316-4ba2d5effdb8 on lib audio_synth
+
+01-01 08:14:25.061   876   876 E EffectsFactoryConfigLoader: EffectLoadXmlEffectConfig 3 errors during loading of configuration: /vendor/etc/audio_effects.xml
+
+01-01 08:14:26.817  1551  1551 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+01-01 08:14:26.817  1551  1551 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+01-01 08:14:26.922   953   953 E AudioFlinger: loadHwModule() error -22 loading module a2dp
+
+12-30 18:44:06.580  1005  1005 E DevicePolicyManager: Error reading version
+
+12-30 18:44:09.360  1857  1857 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:44:09.360  1857  1857 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:44:10.169  1005  1416 W BatteryExternalStatsWorker: error reading modem stats:ERROR_PHONE_NOT_AVAILABLE
+
+12-30 18:44:10.370  1005  1005 E GnssUtilsJni: Unable to get a handle to PSDS interface. AIDL transport error: Status(-7, EX_UNSUPPORTED_OPERATION): ''
+
+12-30 18:44:10.372  1005  1005 E GnssUtilsJni: Unable to get a handle to GnssNavigationMessage AIDL interface. AIDL transport error: Status(-7, EX_UNSUPPORTED_OPERATION): ''
+
+12-30 18:44:10.390  1005  1902 W ZygoteProcess: Got error connecting to zygote, retrying. msg= Connection refused
+
+12-30 18:44:10.441  1005  1902 W ZygoteProcess: Got error connecting to zygote, retrying. msg= Connection refused
+
+12-30 18:44:11.588   583   583 E keystore2: system/security/keystore2/src/error.rs:180 - system/security/keystore2/src/security_level.rs:622
+
+12-30 18:44:11.588   583   583 E keystore2:     1: Error::Km(r#ROLLBACK_RESISTANCE_UNAVAILABLE)
+
+12-30 18:44:11.588   466   466 E vold    : keystore2 Keystore generateKey returned service specific error: -67
+
+12-30 18:44:13.623  1005  1005 D SystemServerTiming: showSystemReadyErrorDialogs
+
+12-30 18:44:13.680  1005  1005 E Build   : Vendor interface is incompatible, error=1
+
+12-30 18:44:13.681  1005  1005 V SystemServerTiming: showSystemReadyErrorDialogs took to complete: 57ms
+
+12-30 18:44:13.725   583   603 E keystore2: system/security/keystore2/src/error.rs:180 - system/security/keystore2/src/security_level.rs:681: Trying to call importKey
+
+12-30 18:44:13.725   583   603 E keystore2:     Error::Km(r#ROLLBACK_RESISTANCE_UNAVAILABLE)
+
+12-30 18:44:13.842   583   603 E keystore2: system/security/keystore2/src/error.rs:180 - system/security/keystore2/src/security_level.rs:681: Trying to call importKey
+
+12-30 18:44:13.842   583   603 E keystore2:     Error::Km(r#ROLLBACK_RESISTANCE_UNAVAILABLE)
+
+12-30 18:44:14.368  2259  2259 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:44:14.369  2259  2259 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+01-01 08:00:49.165  2279  2279 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [car.carlauncher:2203:2279]@16: argument type or size mismatch: call id 21
+
+01-01 08:00:49.166  2279  2279 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [car.carlauncher:2203:2279]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:00:49.166  2279  2279 E         : HGSL [ERROR] [hgsl_hyp_ctxt_create_v1:2667] [car.carlauncher:2203:2279]gsl_rpc_read_uint32_l failed, -22
+
+01-01 08:00:49.171  2279  2279 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [car.carlauncher:2203:2279]@16: argument type or size mismatch: call id 79
+
+01-01 08:00:49.171  2279  2279 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [car.carlauncher:2203:2279]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:00:49.172  2279  2279 E         : HGSL [ERROR] [hgsl_hyp_query_dbcq:2333] [car.carlauncher:2203:2279]gsl_rpc_read_int32_l failed, -22
+
+01-01 08:00:49.251  2279  2279 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [car.carlauncher:2203:2279]@16: argument type or size mismatch: call id 21
+
+01-01 08:00:49.252  2279  2279 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [car.carlauncher:2203:2279]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:00:49.253  2279  2279 E         : HGSL [ERROR] [hgsl_hyp_ctxt_create_v1:2667] [car.carlauncher:2203:2279]gsl_rpc_read_uint32_l failed, -22
+
+01-01 08:00:49.265  2279  2279 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [car.carlauncher:2203:2279]@16: argument type or size mismatch: call id 79
+
+01-01 08:00:49.266  2279  2279 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [car.carlauncher:2203:2279]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:00:49.267  2279  2279 E         : HGSL [ERROR] [hgsl_hyp_query_dbcq:2333] [car.carlauncher:2203:2279]gsl_rpc_read_int32_l failed, -22
+
+01-01 08:00:50.527  2278  2278 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [ndroid.systemui:2174:2278]@16: argument type or size mismatch: call id 21
+
+01-01 08:00:50.528  2278  2278 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [ndroid.systemui:2174:2278]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:00:50.528  2278  2278 E         : HGSL [ERROR] [hgsl_hyp_ctxt_create_v1:2667] [ndroid.systemui:2174:2278]gsl_rpc_read_uint32_l failed, -22
+
+01-01 08:00:50.531  2278  2278 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [ndroid.systemui:2174:2278]@16: argument type or size mismatch: call id 79
+
+01-01 08:00:50.532  2278  2278 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [ndroid.systemui:2174:2278]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:00:50.533  2278  2278 E         : HGSL [ERROR] [hgsl_hyp_query_dbcq:2333] [ndroid.systemui:2174:2278]gsl_rpc_read_int32_l failed, -22
+
+01-01 08:00:50.577  2278  2278 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [ndroid.systemui:2174:2278]@16: argument type or size mismatch: call id 21
+
+01-01 08:00:50.578  2278  2278 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [ndroid.systemui:2174:2278]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:00:50.579  2278  2278 E         : HGSL [ERROR] [hgsl_hyp_ctxt_create_v1:2667] [ndroid.systemui:2174:2278]gsl_rpc_read_uint32_l failed, -22
+
+01-01 08:00:50.582  2278  2278 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [ndroid.systemui:2174:2278]@16: argument type or size mismatch: call id 79
+
+01-01 08:00:50.583  2278  2278 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [ndroid.systemui:2174:2278]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:00:50.584  2278  2278 E         : HGSL [ERROR] [hgsl_hyp_query_dbcq:2333] [ndroid.systemui:2174:2278]gsl_rpc_read_int32_l failed, -22
+
+12-30 18:44:17.132  2174  2285 W Tile.CustomTile: Error in handleRefreshState
+
+12-30 18:44:18.005  2174  2285 W Tile.CustomTile: Error in handleRefreshState
+
+12-30 18:44:19.770  2526  2526 E droid.bluetooth: [1230/184419.770182:ERROR:hal_version_manager.cc(135)] HalVersionManager No supported HAL version
+
+12-30 18:44:19.944  1297  1297 E update_engine: [ERROR:snapshot.cpp(2929)] Read state file failed: No such file or directory
+
+12-30 18:44:20.013  1297  1297 E update_engine: [ERROR:snapshot.cpp(2929)] Read state file failed: No such file or directory
+
+12-30 18:44:20.060  1297  1297 E update_engine: [ERROR:snapshot.cpp(2929)] Read state file failed: No such file or directory
+
+01-01 08:00:54.173  2783  2783 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [car.kitchensink:2582:2783]@16: argument type or size mismatch: call id 21
+
+01-01 08:00:54.174  2783  2783 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [car.kitchensink:2582:2783]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:00:54.176  2783  2783 E         : HGSL [ERROR] [hgsl_hyp_ctxt_create_v1:2667] [car.kitchensink:2582:2783]gsl_rpc_read_uint32_l failed, -22
+
+01-01 08:00:54.190  2783  2783 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [car.kitchensink:2582:2783]@16: argument type or size mismatch: call id 79
+
+01-01 08:00:54.192  2783  2783 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [car.kitchensink:2582:2783]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:00:54.194  2783  2783 E         : HGSL [ERROR] [hgsl_hyp_query_dbcq:2333] [car.kitchensink:2582:2783]gsl_rpc_read_int32_l failed, -22
+
+12-30 18:44:20.211  1297  1297 E update_engine: [ERROR:snapshot.cpp(2929)] Read state file failed: No such file or directory
+
+12-30 18:44:20.240  2864  2864 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:44:20.240  2864  2864 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+01-01 08:00:54.367  2783  2783 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [car.kitchensink:2582:2783]@16: argument type or size mismatch: call id 21
+
+01-01 08:00:54.368  2783  2783 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [car.kitchensink:2582:2783]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:00:54.370  2783  2783 E         : HGSL [ERROR] [hgsl_hyp_ctxt_create_v1:2667] [car.kitchensink:2582:2783]gsl_rpc_read_uint32_l failed, -22
+
+01-01 08:00:54.417  2783  2783 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [car.kitchensink:2582:2783]@16: argument type or size mismatch: call id 79
+
+01-01 08:00:54.418  2783  2783 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [car.kitchensink:2582:2783]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:00:54.419  2783  2783 E         : HGSL [ERROR] [hgsl_hyp_query_dbcq:2333] [car.kitchensink:2582:2783]gsl_rpc_read_int32_l failed, -22
+
+12-30 18:44:20.416  2130  2130 W System.err: android.os.RemoteException: HwBinder Error: (-2147483648)
+
+12-30 18:44:21.011  1297  1297 I update_engine: [INFO:action_processor.cc(116)] ActionProcessor: finished last action CleanupPreviousUpdateAction with code ErrorCode::kSuccess
+
+12-30 18:44:21.976  1005  2933 W AppSearchIcing: icing-search-engine.cc:283: Error: 5, Message: Missing file: /data/system_ce/0/appsearch/icing/schema_dir/schema.pb
+
+12-30 18:44:22.158  1005  2933 W AppSearchIcing: icing-search-engine.cc:283: Error: 5, Message: Missing file: /data/system_ce/0/appsearch/icing/schema_dir/schema.pb
+
+12-30 18:44:22.161  1005  2933 W AppSearchIcing: icing-search-engine.cc:283: Error: 5, Message: Missing file: /data/system_ce/0/appsearch/icing/schema_dir/schema.pb
+
+12-30 18:44:22.389   881   881 W LocSvc_misc_utils: logDlError:167] dlopen error: dlopen failed: library "liblocation_qesdk.so" not found
+
+12-30 18:44:22.465   876  3173 D ACDB-LOADER: Error: ACDB_CMD_GET_AUDPROC_INSTANCE_GAIN_DEP_STEP_TABLE_SIZE Returned = -19
+
+12-30 18:44:22.465   876  3173 D ACDB-LOADER: Error: ACDB AudProc vol returned = -19
+
+12-30 18:44:22.468   876  3173 D ACDB-LOADER: Error: ACDB_CMD_GET_AFE_INSTANCE_COMMON_TABLE_SIZE Returned = -19
+
+12-30 18:44:22.468   876  3173 D ACDB-LOADER: Error: ACDB AFE returned = -19
+
+12-30 18:44:22.495  2526  3174 E droid.bluetooth: [1230/184422.495282:ERROR:config.cc(106)] config_new: unable to open file '/data/misc/bluedroid/bt_remote_dev_info.conf': No such file or directory
+
+12-30 18:44:22.495  2526  3174 E droid.bluetooth: [1230/184422.495569:ERROR:config.cc(106)] config_new: unable to open file '/data/misc/bluedroid/bt_remote_dev_info.bak': No such file or directory
+
+12-30 18:44:22.571   881   906 E IzatSvc_IzatManager: Exiting with error reportOptinStatus line 623 "-1"
+
+12-30 18:44:22.653   876  3173 E audio_hw_extn: audio_extn_perf_lock_release: Perf lock release error 
+
+12-30 18:44:22.934  1005  1416 W BatteryExternalStatsWorker: error reading Bluetooth stats: 9
+
+12-30 18:44:23.096   877  3225 D hardware_nxp: hw_bt_cal_data_load(L736): hw_bt_cal_data_load Error while processing calibration file
+
+12-30 18:44:23.116  2526  3187 E bluetooth: packages/modules/Bluetooth/system/gd/storage/legacy_config_file.cc:39 Read: unable to open file '/data/misc/bluedroid/bt_config.conf', error: No such file or directory
+
+12-30 18:44:23.116  2526  3187 E bluetooth: packages/modules/Bluetooth/system/gd/storage/legacy_config_file.cc:39 Read: unable to open file '/data/misc/bluedroid/bt_config.bak', error: No such file or directory
+
+12-30 18:44:23.334  1005  3220 W BatteryExternalStatsWorker: error reading modem stats:ERROR_INVALID_INFO_RECEIVED
+
+12-30 18:44:24.710  1005  3313 W AppSearchIcing: icing-search-engine.cc:283: Error: 5, Message: Missing file: /data/system_ce/10/appsearch/icing/schema_dir/schema.pb
+
+12-30 18:44:24.722  1005  3313 W AppSearchIcing: icing-search-engine.cc:283: Error: 5, Message: Missing file: /data/system_ce/10/appsearch/icing/schema_dir/schema.pb
+
+12-30 18:44:24.722  1005  3313 W AppSearchIcing: icing-search-engine.cc:283: Error: 5, Message: Missing file: /data/system_ce/10/appsearch/icing/schema_dir/schema.pb
+
+01-01 08:00:59.076     1     1 I init    : Command 'start vendor.diagcommd' action=sys.boot_completed=1 (/vendor/etc/init/diagcommd.rc:7) took 0ms and failed: Could not start service: File /vendor/bin/diagcommd(labeled "u:object_r:vendor_file:s0") has incorrect label or no domain transition from u:r:init:s0 to another SELinux domain defined. Have you configured your service correctly? https://source.android.com/security/selinux/device-policy#label_new_services_and_address_denials. Note: this error shows up even in permissive mode in order to make auditing denials possible.
+
+12-30 18:44:25.345  3331  3331 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:44:25.345  3331  3331 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:44:25.348  3337  3337 E ThermalEngine: read_int_list_from_file: Read error -2.
+
+12-30 18:44:25.349  3337  3337 E ThermalEngine: read_int_list_from_file: Read error -2.
+
+12-30 18:44:25.350  3337  3337 E ThermalEngine: read_int_list_from_file: Read error -2.
+
+12-30 18:44:25.381  3337  3337 E ThermalEngine: thermal_monitor_init_data: ERROR Unknown device ID 0
+
+12-30 18:44:25.381  3337  3337 E ThermalEngine: ss_init_data: ERROR Unknown device ID 0
+
+12-30 18:44:25.385  3337  3337 E ThermalEngine: virtual_sensors_init: Error getting virtual sensors set
+
+12-30 18:44:25.387  3337  3386 E ThermalEngine: limits_write_data_to_partition: Error opening lmh_cdsp sysfs
+
+12-30 18:44:25.418   943   968 E ANDR-PERF-TARGET-INIT: ANDR-PERF-TARGET-INIT: InitializeKPMnodes() 292: Error reading KPM nodes. Does KPM exist
+
+12-30 18:44:25.423   943   968 E ANDR-PERF-OPTSHANDLER: ANDR-PERF-OPTSHANDLER: checkSchedFreqAggrPresence() 363: Error: Sched Frequency Aggregation support not present
+
+12-30 18:44:25.550   943   968 E ANDR-PERF-TARGET: ANDR-PERF-TARGET: getFirstCoreIndex() 202: Error: Invalid cluster id 3
+
+12-30 18:44:25.550   943   968 E ANDR-PERF-TARGET: ANDR-PERF-TARGET: getFirstCoreIndex() 202: Error: Invalid cluster id 3
+
+12-30 18:44:25.851  1005  3403 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+
+12-30 18:44:25.853  1005  3403 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+
+12-30 18:44:25.855  1005  3403 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+
+12-30 18:44:25.858  1005  3403 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+
+12-30 18:44:27.095  1005  3280 W ActivityManager: pid 3517 com.qualcomm.location.XT sent binder code 1 with flags 2 to frozen apps and got error -2147483646
+
+01-01 08:01:01.687  3646  3646 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [mapsplaceholder:3595:3646]@16: argument type or size mismatch: call id 21
+
+01-01 08:01:01.689  3646  3646 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [mapsplaceholder:3595:3646]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:01:01.692  3646  3646 E         : HGSL [ERROR] [hgsl_hyp_ctxt_create_v1:2667] [mapsplaceholder:3595:3646]gsl_rpc_read_uint32_l failed, -22
+
+01-01 08:01:01.697  3646  3646 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [mapsplaceholder:3595:3646]@16: argument type or size mismatch: call id 79
+
+01-01 08:01:01.698  3646  3646 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [mapsplaceholder:3595:3646]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:01:01.699  3646  3646 E         : HGSL [ERROR] [hgsl_hyp_query_dbcq:2333] [mapsplaceholder:3595:3646]gsl_rpc_read_int32_l failed, -22
+
+01-01 08:01:01.758  3646  3646 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [mapsplaceholder:3595:3646]@16: argument type or size mismatch: call id 21
+
+01-01 08:01:01.759  3646  3646 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [mapsplaceholder:3595:3646]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:01:01.760  3646  3646 E         : HGSL [ERROR] [hgsl_hyp_ctxt_create_v1:2667] [mapsplaceholder:3595:3646]gsl_rpc_read_uint32_l failed, -22
+
+01-01 08:01:01.769  3646  3646 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [mapsplaceholder:3595:3646]@16: argument type or size mismatch: call id 79
+
+01-01 08:01:01.770  3646  3646 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [mapsplaceholder:3595:3646]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:01:01.771  3646  3646 E         : HGSL [ERROR] [hgsl_hyp_query_dbcq:2333] [mapsplaceholder:3595:3646]gsl_rpc_read_int32_l failed, -22
+
+12-30 18:44:29.042  3757  3757 W System.err: android.os.RemoteException: HwBinder Error: (-2147483648)
+
+12-30 18:44:30.374  3864  3864 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:44:30.374  3864  3864 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:44:33.340   783  2695 W resolv  : SSL_connect ssl error =5, mark 0xf0064: No route to host
+
+12-30 18:44:33.340   783  2694 W resolv  : SSL_connect ssl error =5, mark 0xf0064: No route to host
+
+12-30 18:44:35.173  1005  4347 I BootReceiver: Checking for fsck errors
+
+12-30 18:44:35.313  4346  4346 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:44:35.313  4346  4346 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:44:35.434   393   393 E QSEECOMD: : ERROR: While opening the device /dev/qseecom 
+
+12-30 18:44:37.229   948   948 E QSEECOMAPI: Error::Failed to open /dev/qseecom device
+
+12-30 18:44:37.231   948   948 E QCOM-OEMCrypto: Error at start_app_v2 : 160
+
+12-30 18:44:37.231   948   948 E QSEECOMAPI: Error::Failed to open /dev/qseecom device
+
+12-30 18:44:37.232   948   948 E QCOM-OEMCrypto: Error at start_app_v2 : 160
+
+12-30 18:44:37.232   948   948 E QSEECOMAPI: Error::Failed to open /dev/qseecom device
+
+12-30 18:44:37.234   948   948 E QCOM-OEMCrypto: Error at start_app_v2 : 160
+
+12-30 18:44:37.234   948   948 E QSEECOMAPI: Error::Failed to open /dev/qseecom device
+
+12-30 18:44:37.234   948   948 E QCOM-OEMCrypto: Error at start_app_v2 : 160
+
+12-30 18:44:37.234   948   948 E QSEECOMAPI: Error::Failed to open /dev/qseecom device
+
+12-30 18:44:37.234   948   948 E QCOM-OEMCrypto: Error at start_app_v2 : 160
+
+12-30 18:44:37.235   948   948 E QCOM-OEMCrypto: Error at load_trusted_app : 208
+
+12-30 18:44:37.235   948   948 E QCOM-OEMCrypto: Error at trusted_app_load : 369
+
+12-30 18:44:37.235   948   948 E QCOM-OEMCrypto: Error at _oecc01 : 473
+
+12-30 18:44:37.235   948   948 W WVCdm   : [oemcrypto_adapter_dynamic.cpp(1480):OEMCrypto_InitializeAndCheckKeybox] Keybox error: 1. Falling back to L3.
+
+12-30 18:44:40.352  4589  4589 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:44:40.352  4589  4589 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:44:45.356  4686  4686 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:44:45.356  4686  4686 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:44:50.375  4795  4795 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:44:50.375  4795  4795 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:44:55.472  4897  4897 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:44:55.472  4897  4897 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:45:00.488  5013  5013 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:45:00.488  5013  5013 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:45:05.557  5112  5112 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:45:05.557  5112  5112 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:45:10.604  5220  5220 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:45:10.604  5220  5220 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:45:12.975   783   813 I doh::connection::driver: Connection 1811edec20cc2e3e1587bf24615cd780cf81288f closed on network 100, peer_error=None
+
+12-30 18:45:15.670  5319  5319 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:45:15.670  5319  5319 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+01-01 08:01:53.014  5425  5425 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [system_server:1005:5425]@16: argument type or size mismatch: call id 21
+
+01-01 08:01:53.018  5425  5425 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [system_server:1005:5425]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:01:53.020  5425  5425 E         : HGSL [ERROR] [hgsl_hyp_ctxt_create_v1:2667] [system_server:1005:5425]gsl_rpc_read_uint32_l failed, -22
+
+01-01 08:01:53.024  5425  5425 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [system_server:1005:5425]@16: argument type or size mismatch: call id 79
+
+01-01 08:01:53.025  5425  5425 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [system_server:1005:5425]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:01:53.026  5425  5425 E         : HGSL [ERROR] [hgsl_hyp_query_dbcq:2333] [system_server:1005:5425]gsl_rpc_read_int32_l failed, -22
+
+01-01 08:01:53.063  5425  5425 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [system_server:1005:5425]@16: argument type or size mismatch: call id 21
+
+01-01 08:01:53.067  5425  5425 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [system_server:1005:5425]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:01:53.067  5425  5425 E         : HGSL [ERROR] [hgsl_hyp_ctxt_create_v1:2667] [system_server:1005:5425]gsl_rpc_read_uint32_l failed, -22
+
+01-01 08:01:53.073  5425  5425 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:141] [system_server:1005:5425]@16: argument type or size mismatch: call id 79
+
+01-01 08:01:53.074  5425  5425 E         : HGSL [ERROR] [gsl_rpc_get_arg_ptr:144] [system_server:1005:5425]size 0 magic 0xFFFFFFFF/0xFEEDDA7A, id 0/1, size 0/4
+
+01-01 08:01:53.074  5425  5425 E         : HGSL [ERROR] [hgsl_hyp_query_dbcq:2333] [system_server:1005:5425]gsl_rpc_read_int32_l failed, -22
+
+12-30 18:45:20.715  5464  5464 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:45:20.715  5464  5464 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:45:21.413  5481  5481 E droid.bluetooth: [1230/184521.413590:ERROR:hal_version_manager.cc(135)] HalVersionManager No supported HAL version
+
+12-30 18:45:21.565  5481  5511 E droid.bluetooth: [1230/184521.565446:ERROR:config.cc(106)] config_new: unable to open file '/data/misc/bluedroid/bt_remote_dev_info.conf': No such file or directory
+
+12-30 18:45:21.567  5481  5511 E droid.bluetooth: [1230/184521.567195:ERROR:config.cc(106)] config_new: unable to open file '/data/misc/bluedroid/bt_remote_dev_info.bak': No such file or directory
+
+12-30 18:45:21.682   877  5521 D hardware_nxp: hw_bt_cal_data_load(L736): hw_bt_cal_data_load Error while processing calibration file
+
+12-30 18:45:23.648  1005  3280 W BatteryExternalStatsWorker: error reading Bluetooth stats: 11
+
+12-30 18:45:23.650  1005  2581 W BatteryExternalStatsWorker: error reading modem stats:ERROR_INVALID_INFO_RECEIVED
+
+12-30 18:45:25.762  5606  5606 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:45:25.762  5606  5606 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:45:30.768  5707  5707 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:45:30.768  5707  5707 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:45:35.840  5797  5797 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:45:35.840  5797  5797 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:45:37.282  4370  4370 E QSEECOMD: : ERROR: While opening the device /dev/qseecom 
+
+12-30 18:45:40.843  5905  5905 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:45:40.844  5905  5905 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:45:45.884  5995  5995 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:45:45.884  5995  5995 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:45:50.946  6092  6092 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:45:50.946  6092  6092 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:45:55.952  6202  6202 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:45:55.952  6202  6202 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:46:01.035  6295  6295 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:46:01.035  6295  6295 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:46:06.099  6406  6406 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:46:06.099  6406  6406 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:46:07.982   783   813 I doh::connection::driver: Connection ba5d1ef0721616068f6319468ebd3c229191632b closed on network 100, peer_error=None
+
+12-30 18:46:11.132  6499  6499 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:46:11.132  6499  6499 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:46:16.171  6614  6614 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:46:16.171  6614  6614 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:46:21.207  6714  6714 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:46:21.207  6714  6714 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:46:25.903  1005  2302 W BatteryExternalStatsWorker: error reading Bluetooth stats: 11
+
+12-30 18:46:25.903  1005  2581 W BatteryExternalStatsWorker: error reading modem stats:ERROR_INVALID_INFO_RECEIVED
+
+12-30 18:46:26.257  6822  6822 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:46:26.257  6822  6822 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:46:31.292  6916  6916 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:46:31.292  6916  6916 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:46:36.325  7046  7046 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:46:36.326  7046  7046 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:46:39.165  5831  5831 E QSEECOMD: : ERROR: While opening the device /dev/qseecom 
+
+12-30 18:46:41.336  7145  7145 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:46:41.336  7145  7145 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:46:46.344  7256  7256 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:46:46.344  7256  7256 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:46:51.406  7347  7347 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:46:51.406  7347  7347 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:46:56.415  7460  7460 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:46:56.415  7460  7460 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:47:01.442  7555  7555 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:47:01.442  7555  7555 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:47:03.001   783   813 I doh::connection::driver: Connection 5f416886703f60234e57cb63301fb6f4e2730d59 closed on network 100, peer_error=None
+
+12-30 18:47:06.489  7662  7662 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:47:06.489  7662  7662 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:47:11.501  7759  7759 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:47:11.501  7759  7759 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:47:16.536  7860  7860 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:47:16.536  7860  7860 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:47:21.497  7988  7988 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:47:21.497  7988  7988 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:47:26.521  8081  8081 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:47:26.521  8081  8081 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:47:31.537  8185  8185 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:47:31.537  8185  8185 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:47:34.619  1005  2581 W BatteryExternalStatsWorker: error reading Bluetooth stats: 11
+
+12-30 18:47:34.620  1005  2723 W BatteryExternalStatsWorker: error reading modem stats:ERROR_INVALID_INFO_RECEIVED
+
+12-30 18:47:36.611  8285  8285 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:47:36.611  8285  8285 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:47:40.889  7106  7106 E QSEECOMD: : ERROR: While opening the device /dev/qseecom 
+
+12-30 18:47:41.600  8405  8405 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:47:41.600  8405  8405 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:47:46.626  8508  8508 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:47:46.626  8508  8508 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:47:51.627  8618  8618 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:47:51.627  8618  8618 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:47:56.666  8722  8722 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:47:56.666  8722  8722 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:48:01.710  8833  8833 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:48:01.710  8833  8833 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:48:06.801  8934  8934 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:48:06.801  8934  8934 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:48:11.821  9043  9043 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:48:11.821  9043  9043 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:48:16.825  9127  9127 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:48:16.825  9127  9127 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:48:21.870  9227  9227 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:48:21.870  9227  9227 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:48:26.846  9303  9303 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:48:26.846  9303  9303 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:48:31.897  9391  9391 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:48:31.897  9391  9391 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:48:36.936  9501  9501 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:48:36.936  9501  9501 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:48:41.900  1005  1591 W BatteryExternalStatsWorker: error reading Bluetooth stats: 11
+
+12-30 18:48:41.902  1005  1591 W BatteryExternalStatsWorker: error reading modem stats:ERROR_INVALID_INFO_RECEIVED
+
+12-30 18:48:41.955  9599  9599 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:48:41.955  9599  9599 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:48:42.471  8397  8397 E QSEECOMD: : ERROR: While opening the device /dev/qseecom 
+
+12-30 18:48:46.960  9696  9696 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:48:46.960  9696  9696 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:48:51.980  9799  9799 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:48:51.980  9799  9799 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:48:56.984  9907  9907 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:48:56.984  9907  9907 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:49:02.006 10002 10002 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:49:02.006 10002 10002 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:49:07.047 10108 10108 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:49:07.047 10108 10108 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:49:12.049 10207 10207 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:49:12.049 10207 10207 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:49:17.090 10316 10316 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:49:17.090 10316 10316 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:49:22.162 10416 10416 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:49:22.162 10416 10416 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:49:27.214 10526 10526 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:49:27.214 10526 10526 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:49:32.258 10621 10621 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:49:32.258 10621 10621 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:49:37.377 10734 10734 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:49:37.378 10734 10734 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:49:42.411 10828 10828 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:49:42.411 10828 10828 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:49:44.221  9621  9621 E QSEECOMD: : ERROR: While opening the device /dev/qseecom 
+
+12-30 18:49:47.396 10931 10931 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:49:47.397 10931 10931 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:49:48.425  1005  1592 W BatteryExternalStatsWorker: error reading Bluetooth stats: 11
+
+12-30 18:49:48.426  1005  1592 W BatteryExternalStatsWorker: error reading modem stats:ERROR_INVALID_INFO_RECEIVED
+
+12-30 18:49:52.417 11034 11034 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:49:52.417 11034 11034 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:49:57.473 11133 11133 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:49:57.474 11133 11133 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:50:02.551 11222 11222 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:50:02.551 11222 11222 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:50:07.510 11322 11322 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:50:07.510 11322 11322 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:50:12.515 11432 11432 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:50:12.515 11432 11432 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
+
+12-30 18:50:17.549 11529 11529 E V4L2CameraHAL: Error while opening /vendor/lib64/hw/camera.v4l2.qcc4.so lib : dlopen failed: "/vendor/lib64/hw/camera.v4l2.qcc4.so" is 64-bit instead of 32-bit
+
+12-30 18:50:17.549 11529 11529 E V4L2CameraHAL: Error while /vendor/lib64/hw/camera.v4l2.qcc4.so lib initialization: (null)
