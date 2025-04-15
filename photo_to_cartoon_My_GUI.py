@@ -14,8 +14,14 @@ def cartoon_classic(img, block_size=9, C=2):
     # Detect edges
     edges = cv2.adaptiveThreshold(gray_blur, 255, cv2.ADAPTIVE_THRESH_MEAN_C,
                                   cv2.THRESH_BINARY, block_size | 1, C)
-    color = cv2.bilateralFilter(img, 9, 250, 250)
-    return cv2.bitwise_and(color, color, mask=edges)
+    # Smothing image
+    color = cv2.bilateralFilter(img, 9, sigmaColor=250, sigmaSpace=250)
+    # Invert edges and convert to color
+    edges_inv = cv2.bitwise_not(edges)
+    edges_inv_color = cv2.cvtColor(edges_inv, cv2.COLOR_GRAY2BGR)
+    # Blend edges into color image
+    cartoon = cv2.bitwise_and(color, edges_inv_color)
+    return cartoon
 
 def cartoon_sketch(img, blur_size=21):
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -23,7 +29,8 @@ def cartoon_sketch(img, blur_size=21):
     k = int(blur_size) | 1 # kernel size must be odd
     blur = cv2.GaussianBlur(inv, (k, k), 0)
     sketch = cv2.divide(gray, 255 - blur, scale=256)
-    return cv2.cvtColor(sketch, cv2.COLOR_GRAY2BGR)
+    cartoon = cv2.cvtColor(sketch, cv2.COLOR_GRAY2BGR)
+    return cartoon
 
 def cartoon_pencil(img, sigma_s=60, sigma_r=0.07, shade=0.05):
     _, dst_color = cv2.pencilSketch(img, sigma_s=sigma_s, sigma_r=sigma_r, shade_factor=shade)
@@ -50,15 +57,23 @@ def cartoon_color_pencil(img, sigma_s=60, sigma_r=0.1, shade=0.02):
 
 def cartoon_comic(img, saturation=1.2, brightness=1.2):
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    # Step 1: Edge detection
     edges = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_MEAN_C,
-                                  cv2.THRESH_BINARY, 9, 2)
+                                  cv2.THRESH_BINARY, blockSize=9, C=2)
+    # Step 2: Invert edge mask and convert to color
+    edges_inv = cv2.bitwise_not(edges)
+    edges_color = cv2.cvtColor(edges_inv, cv2.COLOR_GRAY2BGR)
+    # Step 3: Smooth color image
     color = cv2.bilateralFilter(img, 10, 250, 250)
-    cartoon = cv2.bitwise_and(color, color, mask=edges)
+    # Step 4: Blend edge mask with smoothed color image
+    cartoon = cv2.bitwise_and(color, edges_color)
+    # Step 5: Boost color via HSV manipulation
     hsv = cv2.cvtColor(cartoon, cv2.COLOR_BGR2HSV).astype(np.float32)
     hsv[..., 1] *= saturation
     hsv[..., 2] *= brightness
     hsv = np.clip(hsv, 0, 255).astype(np.uint8)
-    return cv2.cvtColor(hsv, cv2.COLOR_HSV2BGR)
+    cartoon = cv2.cvtColor(hsv, cv2.COLOR_HSV2BGR)
+    return cartoon
 
 # ==================== STYLE REGISTRY ====================
 style_functions = {
