@@ -8,19 +8,18 @@ from PIL import Image, ImageTk
 import os
 
 # ==================== CARTOON FUNCTIONS ====================
-def cartoon_classic(img, block_size=9, C=2):
+def cartoon_classic(img, bilateral_d=9, bilateral_sigma=250, canny_low=100, canny_high=200):
+    # Step 1: Edge detection using Canny
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    gray_blur = cv2.medianBlur(gray, 7)
-    # Detect edges
-    edges = cv2.adaptiveThreshold(gray_blur, 255, cv2.ADAPTIVE_THRESH_MEAN_C,
-                                  cv2.THRESH_BINARY, block_size | 1, C)
-    # Smothing image
-    color = cv2.bilateralFilter(img, 9, sigmaColor=250, sigmaSpace=250)
-    # Invert edges and convert to color
+    edges = cv2.Canny(gray, int(canny_low), int(canny_high))
     edges_inv = cv2.bitwise_not(edges)
-    edges_inv_color = cv2.cvtColor(edges_inv, cv2.COLOR_GRAY2BGR)
-    # Blend edges into color image
-    cartoon = cv2.bitwise_and(color, edges_inv_color)
+    edges_inv_colored = cv2.cvtColor(edges_inv, cv2.COLOR_GRAY2BGR)
+
+    # Step 2: Biliteral filter to smooth color
+    color = cv2.bilateralFilter(img, d=int(bilateral_d), sigmaColor=bilateral_sigma, sigmaSpace=bilateral_sigma)
+
+    # Step 3: Combine smooth color with eges
+    cartoon = cv2.bitwise_and(color, edges_inv_colored)
     return cartoon
 
 def cartoon_sketch(img, blur_size=21):
@@ -55,24 +54,25 @@ def cartoon_color_pencil(img, sigma_s=60, sigma_r=0.1, shade=0.02):
     _, color = cv2.pencilSketch(img, sigma_s=sigma_s, sigma_r=sigma_r, shade_factor=shade)
     return color
 
-def cartoon_comic(img, saturation=1.2, brightness=1.2):
-    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+def cartoon_comic(img, saturation=1.2, brightness=1.2, canny_low=100, canny_high=200):
     # Step 1: Edge detection
-    edges = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_MEAN_C,
-                                  cv2.THRESH_BINARY, blockSize=9, C=2)
-    # Step 2: Invert edge mask and convert to color
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    edges = cv2.Canny(gray, int(canny_low), int(canny_high))
     edges_inv = cv2.bitwise_not(edges)
-    edges_color = cv2.cvtColor(edges_inv, cv2.COLOR_GRAY2BGR)
-    # Step 3: Smooth color image
-    color = cv2.bilateralFilter(img, 10, 250, 250)
-    # Step 4: Blend edge mask with smoothed color image
-    cartoon = cv2.bitwise_and(color, edges_color)
-    # Step 5: Boost color via HSV manipulation
-    hsv = cv2.cvtColor(cartoon, cv2.COLOR_BGR2HSV).astype(np.float32)
+    edges_inv_colored = cv2.cvtColor(edges_inv, cv2.COLOR_GRAY2BGR)
+
+    # Step 2: Smooth color image with Bilateral filter
+    color = cv2.bilateralFilter(img, d=9, sigmaColor=200, sigmaSpace=200)
+
+    # Step 3: Boost color via HSV manipulation
+    hsv = cv2.cvtColor(color, cv2.COLOR_BGR2HSV).astype(np.float32)
     hsv[..., 1] *= saturation
     hsv[..., 2] *= brightness
     hsv = np.clip(hsv, 0, 255).astype(np.uint8)
-    cartoon = cv2.cvtColor(hsv, cv2.COLOR_HSV2BGR)
+    enhanced_color = cv2.cvtColor(hsv, cv2.COLOR_HSV2BGR)
+
+    # Step 4: Apply edges to color image
+    cartoon = cv2.bitwise_and(enhanced_color, edges_inv_colored)
     return cartoon
 
 # ==================== STYLE REGISTRY ====================
@@ -91,12 +91,12 @@ style_functions = {
 
 # Which sliders are relevant to each style
 style_params = {
-    "Classic Cartoon": ["block_size", "C"],
+    "Classic Cartoon": ["bilateral_d", "bilateral_sigma", "canny_low", "canny_high"],
     "Sketch Style": ["blur_size"],
     "Pencil Drawing": ["sigma_s", "sigma_r", "shade"],
     "Oil Painting": ["size", "dyn"],
     "Stylized Smooth": ["sigma_s", "sigma_r"],
-    "Comic Book": ["saturation", "brightness"],
+    "Comic Book": ["saturation", "brightness", "canny_low", "canny_high"],
     "Watercolor": ["sigma_s", "sigma_r"],
     "Detail Enhance": ["sigma_s", "sigma_r"],
     "HDR Look": ["sigma_s", "sigma_r"],
@@ -155,6 +155,10 @@ create_slider("dyn", "Oil Dyn Ratio", 1, 5)
 create_slider("saturation", "Saturation", 1.0, 2.0, 0.1)
 create_slider("brightness", "Brightness", 1.0, 2.0, 0.1)
 create_slider("blur_size", "Sketch Blur Size", 5, 41, resolution=2)
+create_slider("bilateral_d", "Bilateral Filter D", 3, 15, resolution=1)
+create_slider("bilateral_sigma", "Bilateral Sigma", 50, 300, resolution=10)
+create_slider("canny_low", "Canny Low Threshold", 50, 150, resolution=1)
+create_slider("canny_high", "Canny High Threshold", 150, 300, resolution=1)
 
 def hide_all_sliders():
     for slider, _ in slider_widgets.values():
@@ -177,7 +181,7 @@ def get_current_params():
         _, var = slider_widgets[param]
         val = var.get()
         # Force integer where needed
-        if param in ["block_size", "size", "dyn", "blur_size"]:
+        if param in ["block_size", "size", "dyn", "blur_size", "canny_low", "canny_high", "bilateral_d", "bilateral_sigma"]:
             val = int(val)
         # ensure block size is odd
         if param == "block_size":
