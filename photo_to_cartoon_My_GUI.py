@@ -75,6 +75,46 @@ def cartoon_comic(img, saturation=1.2, brightness=1.2, canny_low=100, canny_high
     cartoon = cv2.bitwise_and(enhanced_color, edges_inv_colored)
     return cartoon
 
+def cartoon_bold(img, bilateral_d=9, bilateral_sigma=150, canny_low=50, canny_high=150, color_levels=10):
+    smoothed = cv2.bilateralFilter(img, d=int(bilateral_d),
+                                    sigmaColor=bilateral_sigma,
+                                    sigmaSpace=bilateral_sigma)
+
+    div = max(1, int(256/color_levels))
+    poster = smoothed // div * div
+
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    edges = cv2.Canny(gray, int(canny_low), int(canny_high))
+    edges_inv = cv2.bitwise_not(edges)
+    edges_inv_colored = cv2.cvtColor(edges_inv, cv2.COLOR_GRAY2BGR)
+
+    cartoon = cv2.bitwise_and(poster, edges_inv_colored)
+
+    return cartoon
+
+def cartoon_smooth(img, bilateral_d=9, bilateral_sigma=100, color_levels=10, edge_strength=0.5):
+    # Step 1: Smooth image to reduce detail
+    smoothed = cv2.bilateralFilter(img, d=int(bilateral_d),
+                                    sigmaColor=bilateral_sigma,
+                                    sigmaSpace=bilateral_sigma)
+
+    # Step 2: Posterize (reduce color levels)
+    div = max(1, int(256 / color_levels))
+    poster = smoothed // div * div
+
+    # Step 3: Edge enhancement using Laplacian (softer than Canny)
+    gray = cv2.cvtColor(smoothed, cv2.COLOR_BGR2GRAY)
+    laplacian = cv2.Laplacian(gray, cv2.CV_8U, ksize=3)
+    edges = cv2.threshold(laplacian, 20, 255, cv2.THRESH_BINARY)[1]
+    edges = cv2.GaussianBlur(edges, (3, 3), 0)
+    edges = cv2.cvtColor(edges, cv2.COLOR_GRAY2BGR)
+
+    # Step 4: Blend edges back into color (fade them for soft outlines)
+    cartoon = cv2.subtract(poster, (edge_strength * edges).astype(np.uint8))
+
+    return cartoon 
+
+
 # ==================== STYLE REGISTRY ====================
 style_functions = {
     "Classic Cartoon": cartoon_classic,
@@ -86,7 +126,9 @@ style_functions = {
     "Detail Enhance": cartoon_detail_enhance,
     "HDR Look": cartoon_hdr,
     "Color Pencil": cartoon_color_pencil,
-    "Comic Book": cartoon_comic
+    "Comic Book": cartoon_comic,
+    "Cartoon Bold": cartoon_bold,
+    "Cartoon Smooth": cartoon_smooth
 }
 
 # Which sliders are relevant to each style
@@ -100,7 +142,9 @@ style_params = {
     "Watercolor": ["sigma_s", "sigma_r"],
     "Detail Enhance": ["sigma_s", "sigma_r"],
     "HDR Look": ["sigma_s", "sigma_r"],
-    "Color Pencil": ["sigma_s", "sigma_r", "shade"]
+    "Color Pencil": ["sigma_s", "sigma_r", "shade"],
+    "Cartoon Bold": ["bilateral_d", "bilateral_sigma", "canny_low", "canny_high", "color_levels"],
+    "Cartoon Smooth": ["bilateral_d", "bilateral_sigma", "color_levels", "edge_strength"] 
 }
 
 # ==================== GUI SETUP ====================
@@ -159,6 +203,8 @@ create_slider("bilateral_d", "Bilateral Filter D", 3, 15, resolution=1)
 create_slider("bilateral_sigma", "Bilateral Sigma", 50, 300, resolution=10)
 create_slider("canny_low", "Canny Low Threshold", 50, 150, resolution=1)
 create_slider("canny_high", "Canny High Threshold", 150, 300, resolution=1)
+create_slider("color_levels", "Color Levels", 2, 20, resolution=1)
+create_slider("edge_strength", "Edge Strength", 0, 1, 0.05) 
 
 def hide_all_sliders():
     for slider, _ in slider_widgets.values():
